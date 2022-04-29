@@ -22,6 +22,22 @@ namespace Endereco
 
         }
 
+        private void FrmMenu_Resize(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Maximized;
+        }
+
+        private void LogoutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void FrmMenu_Load(object sender, EventArgs e)
+        {
+            pnlTopo.BackColor = Color.FromArgb(230, 230, 230);
+          
+        }
+
         private void button5_Click(object sender, EventArgs e)
         {
 
@@ -69,11 +85,14 @@ namespace Endereco
 
         private void estadoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            BusSpot.Cadastro.Cadastro_Estado form = new BusSpot.Cadastro.Cadastro_Estado();
+            form.Show();
         }
 
         private void cidadeToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            Cadastro.Cadastro_Cidade form = new Cadastro.Cadastro_Cidade();
+            form.Show();
 
         }
 

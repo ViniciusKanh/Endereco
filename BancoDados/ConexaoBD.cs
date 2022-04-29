@@ -16,11 +16,11 @@ namespace BancoDados
     {
         public static SqlConnection conexao;
 
-        public static string cn = "Data Source=VINICIUS-SANTOS\\VINICIUSKHAN;Initial Catalog=BusSpot;Persist Security Info=True;User ID=sa;Password=intel";
+        public static string cn = "Data Source=VINICIUS-SANTOS\\VINICIUSKHAN;Initial Catalog=BD_CEP;Persist Security Info=True;User ID=sa;Password=intel";
 
         private static SqlConnection ConexaoBanco()
         {
-            conexao = new SqlConnection("Data Source=VINICIUS-SANTOS\\VINICIUSKHAN;Initial Catalog=BusSpot;Persist Security Info=True;User ID=sa;Password=intel");
+            conexao = new SqlConnection("Data Source=VINICIUS-SANTOS\\VINICIUSKHAN;Initial Catalog=BD_CEP;Persist Security Info=True;User ID=sa;Password=intel");
 
             return conexao;
         }

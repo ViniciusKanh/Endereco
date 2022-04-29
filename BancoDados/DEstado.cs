@@ -37,7 +37,7 @@ namespace BancoDados
 				Sqlcon.Open();
 				SqlCommand SqlCmd = new SqlCommand();
 				SqlCmd.Connection = Sqlcon;
-				SqlCmd.CommandText = "Proc_Inserir_ESTADO";
+				SqlCmd.CommandText = "Proc_Inserir_Estado";
 				SqlCmd.CommandType = CommandType.StoredProcedure;
 
 				SqlParameter ParID_ESTADO = new SqlParameter();
@@ -89,7 +89,7 @@ namespace BancoDados
 				Sqlcon.Open();
 				SqlCommand SqlCmd = new SqlCommand();
 				SqlCmd.Connection = Sqlcon;
-				SqlCmd.CommandText = "Proc_Editar_ESTADO";
+				SqlCmd.CommandText = "Proc_Editar_Estado";
 				SqlCmd.CommandType = CommandType.StoredProcedure;
 
 				SqlParameter ParID_ESTADO = new SqlParameter();
@@ -141,7 +141,7 @@ namespace BancoDados
 				Sqlcon.Open();
 				SqlCommand SqlCmd = new SqlCommand();
 				SqlCmd.Connection = Sqlcon;
-				SqlCmd.CommandText = "Proc_Remover_ESTADO";
+				SqlCmd.CommandText = "Proc_Remover_Estado";
 				SqlCmd.CommandType = CommandType.StoredProcedure;
 
 				SqlParameter ParID_ESTADO = new SqlParameter();
@@ -178,7 +178,7 @@ namespace BancoDados
 				Sqlcon.ConnectionString = ConexaoBD.cn;
 				SqlCommand SqlCmd = new SqlCommand();
 				SqlCmd.Connection = Sqlcon;
-				SqlCmd.CommandText = "Proc_Buscar_ESTADO";
+				SqlCmd.CommandText = "Proc_Buscar_Estado";
 				SqlCmd.CommandType = CommandType.StoredProcedure;
 
 
@@ -219,7 +219,7 @@ namespace BancoDados
 				Sqlcon.ConnectionString = ConexaoBD.cn;
 				SqlCommand SqlCmd = new SqlCommand();
 				SqlCmd.Connection = Sqlcon;
-				SqlCmd.CommandText = "Proc_Mostrar_ESTADO";
+				SqlCmd.CommandText = "Proc_Mostrar_Estado";
 				SqlCmd.CommandType = CommandType.StoredProcedure;
 				SqlDataAdapter SqlDat = new SqlDataAdapter(SqlCmd);
 				SqlDat.Fill(DtResultado);

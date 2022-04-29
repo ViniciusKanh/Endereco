@@ -56,4 +56,5 @@ C:\Users\Vinicius\source\repos\Endereco\Endereco\bin\Debug\net6.0-windows\Micros
 C:\Users\Vinicius\source\repos\Endereco\Endereco\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
 C:\Users\Vinicius\source\repos\Endereco\Endereco\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
 C:\Users\Vinicius\source\repos\Endereco\Endereco\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
-C:\Users\Vinicius\source\repos\Endereco\Endereco\obj\Debug\net6.0-windows\Endereco.Cadastro.frmEstado.resources
+C:\Users\Vinicius\source\repos\Endereco\Endereco\obj\Debug\net6.0-windows\BusSpot.Cadastro.Cadastro_Estado.resources
+C:\Users\Vinicius\source\repos\Endereco\Endereco\obj\Debug\net6.0-windows\Endereco.Cadastro.Cadastro_Cidade.resources
