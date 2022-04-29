@@ -1,0 +1,12 @@
+C:\Users\Vinicius\source\repos\Endereco\BancoDados\bin\Debug\net6.0\BancoDados.deps.json
+C:\Users\Vinicius\source\repos\Endereco\BancoDados\bin\Debug\net6.0\BancoDados.dll
+C:\Users\Vinicius\source\repos\Endereco\BancoDados\bin\Debug\net6.0\BancoDados.pdb
+C:\Users\Vinicius\source\repos\Endereco\BancoDados\obj\Debug\net6.0\BancoDados.csproj.AssemblyReference.cache
+C:\Users\Vinicius\source\repos\Endereco\BancoDados\obj\Debug\net6.0\BancoDados.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vinicius\source\repos\Endereco\BancoDados\obj\Debug\net6.0\BancoDados.AssemblyInfoInputs.cache
+C:\Users\Vinicius\source\repos\Endereco\BancoDados\obj\Debug\net6.0\BancoDados.AssemblyInfo.cs
+C:\Users\Vinicius\source\repos\Endereco\BancoDados\obj\Debug\net6.0\BancoDados.csproj.CoreCompileInputs.cache
+C:\Users\Vinicius\source\repos\Endereco\BancoDados\obj\Debug\net6.0\BancoDados.dll
+C:\Users\Vinicius\source\repos\Endereco\BancoDados\obj\Debug\net6.0\refint\BancoDados.dll
+C:\Users\Vinicius\source\repos\Endereco\BancoDados\obj\Debug\net6.0\BancoDados.pdb
+C:\Users\Vinicius\source\repos\Endereco\BancoDados\obj\Debug\net6.0\ref\BancoDados.dll
