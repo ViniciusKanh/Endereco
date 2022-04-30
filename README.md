@@ -1,10 +1,28 @@
 
+<h1 align="center">Projeto Endereço</h1>
+
 <h2 align="center"> 
-    :construction:  Projeto Endereço com C# e SQLSERVER  :construction:
- <br>
+    :construction:  Projeto Concluido  :construction:
  <br>
  </h2>
 
+<h2 align="center">
+  <img alt="ProjetoEndereço" title="#Tela Inicial" src="https://github.com/ViniciusKanh/Endereco_CSharp_SQLSERVER/blob/main/Imagens-Icones/Tela%20Inicial.png " />
+</h2>
+
+<h4 align="center">
+  <img alt="ProjetoEndereço" title="#Tela Inicial" src="https://github.com/ViniciusKanh/Endereco_CSharp_SQLSERVER/blob/main/Imagens-Icones/Registrando%20um%20endere%C3%A7o.png " />
+</h4>
+
+
+### Etapas do Projeto
+
+- [x] Cadastro de Estado
+- [x] Cadastro de Cidade
+- [X] Cadastro de Bairro
+- [X] Cadastro de Logradouro
+- [X] Cadastro de Tipo de Logradouro
+- [X] Cadastro de CEP
 
 ## :hammer: Funcionalidades do projeto  <br>
 
@@ -12,13 +30,20 @@
 - `Funcionalidade 2`: Ultilização de metodos como procedure e function no Banco de dados
 - `Funcionalidade 3`: Uso de WebService para uma melhor implementação.
 
+## ✔️ Técnicas e tecnologias utilizadas
+
+- ``C#``
+- ``SQL SERVER``
+- ``UML``
+
+
 ## 📁 Acesso ao projeto
 
-**Indique como é possível baixar ou acessar o código fonte do projeto, seja projeto inicial ou final**
+**O acesso ao projeto esta nas pasta do repositorio o projeto foi desenvolvido em tres camadas, uma de dados outra de negocio ea ultima de apresentação**
 
 ## 🛠️ Abrir e rodar o projeto
 
-**Apresente as instruções necessárias para abrir e executar o projeto**
+**Para executar o usuario precisa, instalar em seu desktop o visual studio e o Sql server, as instruções de como criar as tabelas e procedimentos estas pastas do repositorio**
 
 
 ### Autor
