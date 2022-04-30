@@ -62,3 +62,4 @@ C:\Users\Vinicius\source\repos\Endereco\Endereco\obj\Debug\net6.0-windows\Endere
 C:\Users\Vinicius\source\repos\Endereco\Endereco\obj\Debug\net6.0-windows\Endereco.Cadastro.Cadastro_CEP.resources
 C:\Users\Vinicius\source\repos\Endereco\Endereco\obj\Debug\net6.0-windows\Endereco.Cadastro.Cadastro_Logradouro.resources
 C:\Users\Vinicius\source\repos\Endereco\Endereco\obj\Debug\net6.0-windows\Endereco.Cadastro.Cadastro_TipoLogradouro.resources
+C:\Users\Vinicius\source\repos\Endereco\Endereco\obj\Debug\net6.0-windows\Endereco.Properties.Resources.resources

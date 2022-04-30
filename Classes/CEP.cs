@@ -16,7 +16,7 @@ namespace Classes
         {
 
             DCep obj = new();
-            obj.cep = cep;
+            obj.endereco = cep;
             obj.IDBairro = idbairro;
             obj.IDCidade = idcidade;
             obj.IDLogradouro = idlogradouro;
@@ -31,7 +31,7 @@ namespace Classes
 
             DCep obj = new();
             obj.ID = id;
-            obj.cep = cep;
+            obj.endereco = cep;
             obj.IDBairro = idbairro;
             obj.IDCidade = idcidade;
             obj.IDLogradouro = idlogradouro;

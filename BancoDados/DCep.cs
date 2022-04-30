@@ -7,7 +7,7 @@ namespace BancoDados
     public class DCep
     {
 		public int ID { get; set; }
-		public String cep { get; set; }
+		public String endereco { get; set; }
 		public int IDBairro { get; set; }
 		public int IDCidade { get; set; }
 		public int IDLogradouro { get; set; }
@@ -36,7 +36,7 @@ namespace BancoDados
 				ParNome_ENDERECO.ParameterName = "@CEP";
 				ParNome_ENDERECO.SqlDbType = SqlDbType.VarChar;
 				ParNome_ENDERECO.Size = 50;
-				ParNome_ENDERECO.Value = cep;
+				ParNome_ENDERECO.Value = endereco;
 				SqlCmd.Parameters.Add(ParNome_ENDERECO);
 
 				SqlParameter ParID_BAIRRO = new SqlParameter();

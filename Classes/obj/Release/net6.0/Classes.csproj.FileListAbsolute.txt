@@ -1,0 +1,15 @@
+C:\Users\Vinicius\source\repos\Endereco\Classes\bin\Release\net6.0\Classes.deps.json
+C:\Users\Vinicius\source\repos\Endereco\Classes\bin\Release\net6.0\Classes.dll
+C:\Users\Vinicius\source\repos\Endereco\Classes\bin\Release\net6.0\Classes.pdb
+C:\Users\Vinicius\source\repos\Endereco\Classes\bin\Release\net6.0\BancoDados.dll
+C:\Users\Vinicius\source\repos\Endereco\Classes\bin\Release\net6.0\BancoDados.pdb
+C:\Users\Vinicius\source\repos\Endereco\Classes\obj\Release\net6.0\Classes.csproj.AssemblyReference.cache
+C:\Users\Vinicius\source\repos\Endereco\Classes\obj\Release\net6.0\Classes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vinicius\source\repos\Endereco\Classes\obj\Release\net6.0\Classes.AssemblyInfoInputs.cache
+C:\Users\Vinicius\source\repos\Endereco\Classes\obj\Release\net6.0\Classes.AssemblyInfo.cs
+C:\Users\Vinicius\source\repos\Endereco\Classes\obj\Release\net6.0\Classes.csproj.CoreCompileInputs.cache
+C:\Users\Vinicius\source\repos\Endereco\Classes\obj\Release\net6.0\Classes.csproj.CopyComplete
+C:\Users\Vinicius\source\repos\Endereco\Classes\obj\Release\net6.0\Classes.dll
+C:\Users\Vinicius\source\repos\Endereco\Classes\obj\Release\net6.0\refint\Classes.dll
+C:\Users\Vinicius\source\repos\Endereco\Classes\obj\Release\net6.0\Classes.pdb
+C:\Users\Vinicius\source\repos\Endereco\Classes\obj\Release\net6.0\ref\Classes.dll

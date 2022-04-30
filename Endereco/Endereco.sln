@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32414.318
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Endereco", "Endereco.csproj", "{D2DE2D20-B55A-48B2-B30F-7675B1BDE5B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Endereco", "Endereco.csproj", "{D2DE2D20-B55A-48B2-B30F-7675B1BDE5B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes", "..\Classes\Classes.csproj", "{D074991A-A448-436D-9997-EF3F7D3EC336}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Classes", "..\Classes\Classes.csproj", "{D074991A-A448-436D-9997-EF3F7D3EC336}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancoDados", "..\BancoDados\BancoDados.csproj", "{716A804D-E2F4-4A64-B1AB-9DDDF78F8ABA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BancoDados", "..\BancoDados\BancoDados.csproj", "{716A804D-E2F4-4A64-B1AB-9DDDF78F8ABA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
