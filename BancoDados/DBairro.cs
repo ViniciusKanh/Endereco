@@ -2,17 +2,19 @@
 using System.Data.SqlTypes;
 using System.Data.SqlClient;
 
+
 namespace BancoDados
 {
-    public class DLogradouro
+    public class DBairro
     {
 		public int ID { get; set; }
 		public String nome { get; set; }
 		public string txtBuscar { get; set; }
 
 		///  
-		public string Incluir_Logradouro(DLogradouro logradouro)
+		public string Incluir_Bairro(DBairro bairro)
 		{
+
 			string Resp;
 
 			SqlConnection Sqlcon = new SqlConnection();
@@ -23,17 +25,17 @@ namespace BancoDados
 				Sqlcon.Open();
 				SqlCommand SqlCmd = new SqlCommand();
 				SqlCmd.Connection = Sqlcon;
-				SqlCmd.CommandText = "Proc_Inserir_Logradouro";
+				SqlCmd.CommandText = "Proc_Inserir_Bairro";
 				SqlCmd.CommandType = CommandType.StoredProcedure;
 
-				SqlParameter ParNome_LOGRADOURO = new SqlParameter();
-				ParNome_LOGRADOURO.ParameterName = "@Nome";
-				ParNome_LOGRADOURO.SqlDbType = SqlDbType.VarChar;
-				ParNome_LOGRADOURO.Size = 50;
-				ParNome_LOGRADOURO.Value = nome;
-				SqlCmd.Parameters.Add(ParNome_LOGRADOURO);
+				SqlParameter ParNome_BAIRRO = new SqlParameter();
+				ParNome_BAIRRO.ParameterName = "@Nome";
+				ParNome_BAIRRO.SqlDbType = SqlDbType.VarChar;
+				ParNome_BAIRRO.Size = 50;
+				ParNome_BAIRRO.Value = nome;
+				SqlCmd.Parameters.Add(ParNome_BAIRRO);
 
-				Resp = SqlCmd.ExecuteNonQuery() == 1 ? "OK" : "Logradouro Não Inserido";
+				Resp = SqlCmd.ExecuteNonQuery() == 1 ? "OK" : "Bairro Não Inserido";
 
 
 
@@ -49,10 +51,9 @@ namespace BancoDados
 			return Resp;
 		}
 
-
-		public DataTable Mostrar_Logradouro()
+		public DataTable Mostrar_Bairro()
 		{
-			DataTable DtResultado = new DataTable("Logradouro");
+			DataTable DtResultado = new DataTable("Bairro");
 
 			SqlConnection Sqlcon = new SqlConnection();
 
@@ -61,7 +62,7 @@ namespace BancoDados
 				Sqlcon.ConnectionString = ConexaoBD.cn;
 				SqlCommand SqlCmd = new SqlCommand();
 				SqlCmd.Connection = Sqlcon;
-				SqlCmd.CommandText = "Proc_Mostrar_Logradouro";
+				SqlCmd.CommandText = "Proc_Mostrar_Bairro";
 				SqlCmd.CommandType = CommandType.StoredProcedure;
 				SqlDataAdapter SqlDat = new SqlDataAdapter(SqlCmd);
 				SqlDat.Fill(DtResultado);
@@ -80,7 +81,7 @@ namespace BancoDados
 		}
 
 		///  
-		public string Alterar_Logradouro(DLogradouro logradouro)
+		public string Alterar_Bairro(DBairro bairro)
 		{
 			string Resp;
 
@@ -92,22 +93,22 @@ namespace BancoDados
 				Sqlcon.Open();
 				SqlCommand SqlCmd = new SqlCommand();
 				SqlCmd.Connection = Sqlcon;
-				SqlCmd.CommandText = "Proc_Alterar_Logradouro";
+				SqlCmd.CommandText = "Proc_Alterar_Bairro";
 				SqlCmd.CommandType = CommandType.StoredProcedure;
 
-				SqlParameter ParID_LOGRADOURO = new SqlParameter();
-				ParID_LOGRADOURO.ParameterName = "@ID";
-				ParID_LOGRADOURO.SqlDbType = SqlDbType.Int;
-				ParID_LOGRADOURO.Value = ID;
-				SqlCmd.Parameters.Add(ParID_LOGRADOURO);
+				SqlParameter ParID_BAIRRO = new SqlParameter();
+				ParID_BAIRRO.ParameterName = "@ID";
+				ParID_BAIRRO.SqlDbType = SqlDbType.Int;
+				ParID_BAIRRO.Value = ID;
+				SqlCmd.Parameters.Add(ParID_BAIRRO);
 
 
-				SqlParameter ParNome_LOGRADOURO = new SqlParameter();
-				ParNome_LOGRADOURO.ParameterName = "@Nome";
-				ParNome_LOGRADOURO.SqlDbType = SqlDbType.VarChar;
-				ParNome_LOGRADOURO.Size = 50;
-				ParNome_LOGRADOURO.Value = nome;
-				SqlCmd.Parameters.Add(ParNome_LOGRADOURO);
+				SqlParameter ParNome_BAIRRO = new SqlParameter();
+				ParNome_BAIRRO.ParameterName = "@Nome";
+				ParNome_BAIRRO.SqlDbType = SqlDbType.VarChar;
+				ParNome_BAIRRO.Size = 50;
+				ParNome_BAIRRO.Value = nome;
+				SqlCmd.Parameters.Add(ParNome_BAIRRO);
 
 
 				Resp = SqlCmd.ExecuteNonQuery() == 1 ? "OK" : "Edicao Não Concluida";
@@ -126,7 +127,7 @@ namespace BancoDados
 		}
 
 		///  
-		public string Remover_Logradouro(DLogradouro logradouro)
+		public string Remover_Bairro(DBairro bairro)
 		{
 			string Resp;
 
@@ -138,17 +139,17 @@ namespace BancoDados
 				Sqlcon.Open();
 				SqlCommand SqlCmd = new SqlCommand();
 				SqlCmd.Connection = Sqlcon;
-				SqlCmd.CommandText = "Proc_Remover_Logradouro";
+				SqlCmd.CommandText = "Proc_Remover_Bairro";
 				SqlCmd.CommandType = CommandType.StoredProcedure;
 
-				SqlParameter ParID_LOGRADOURO = new SqlParameter();
-				ParID_LOGRADOURO.ParameterName = "@ID";
-				ParID_LOGRADOURO.SqlDbType = SqlDbType.Int;
-				ParID_LOGRADOURO.Value = ID;
-				SqlCmd.Parameters.Add(ParID_LOGRADOURO);
+				SqlParameter ParID_BAIRRO = new SqlParameter();
+				ParID_BAIRRO.ParameterName = "@ID";
+				ParID_BAIRRO.SqlDbType = SqlDbType.Int;
+				ParID_BAIRRO.Value = ID;
+				SqlCmd.Parameters.Add(ParID_BAIRRO);
 
 
-				Resp = SqlCmd.ExecuteNonQuery() == 1 ? "OK" : "Logradouro Não Encontrado";
+				Resp = SqlCmd.ExecuteNonQuery() == 1 ? "OK" : "Bairro Não Encontrado";
 
 
 
@@ -164,10 +165,9 @@ namespace BancoDados
 		}
 
 		///  
-		public DataTable Buscar_Logradouro(DLogradouro logradouro)
+		public DataTable Buscar_Bairro(DBairro bairro)
 		{
-
-			DataTable DtResultado = new DataTable("Logradouro");
+			DataTable DtResultado = new DataTable("Bairro");
 
 			SqlConnection Sqlcon = new SqlConnection();
 
@@ -176,7 +176,7 @@ namespace BancoDados
 				Sqlcon.ConnectionString = ConexaoBD.cn;
 				SqlCommand SqlCmd = new SqlCommand();
 				SqlCmd.Connection = Sqlcon;
-				SqlCmd.CommandText = "Proc_Buscar_Logradouro";
+				SqlCmd.CommandText = "Proc_Buscar_Bairro";
 				SqlCmd.CommandType = CommandType.StoredProcedure;
 
 
@@ -191,6 +191,9 @@ namespace BancoDados
 				SqlDat.Fill(DtResultado);
 
 
+
+
+
 			}
 			catch (Exception error)
 			{
@@ -201,6 +204,7 @@ namespace BancoDados
 			finally { if (Sqlcon.State == ConnectionState.Open) Sqlcon.Close(); }
 
 			return DtResultado;
+
 		}
 	}
 }

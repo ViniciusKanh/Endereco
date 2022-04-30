@@ -10,54 +10,54 @@ using System.Threading.Tasks;
 
 namespace Classes
 {
-    public class Logradouro
+    public class TipoLogradouro
     {
         public static string Inserir(string nome)
         {
 
-            DLogradouro obj = new();
+            DTipoLogradouro obj = new();
             obj.nome = nome;
 
 
-            return obj.Incluir_Logradouro(obj);
+            return obj.Incluir_TipoLogradouro(obj);
 
         }
 
         public static string Editar(int id, string nome)
         {
 
-            DLogradouro obj = new();
+            DTipoLogradouro obj = new();
             obj.ID = id;
             obj.nome = nome;
 
 
-            return obj.Alterar_Logradouro(obj);
+            return obj.Alterar_TipoLogradouro(obj);
 
         }
 
         public static DataTable Buscar(string nome)
         {
 
-            DLogradouro obj = new();
+            DTipoLogradouro obj = new();
             obj.txtBuscar = nome;
 
-            return obj.Buscar_Logradouro(obj);
+            return obj.Buscar_TipoLogradouro(obj);
 
         }
 
         public static string Remover(int id)
         {
 
-            DLogradouro obj = new();
+            DTipoLogradouro obj = new();
             obj.ID = id;
 
-            return obj.Remover_Logradouro(obj);
+            return obj.Remover_TipoLogradouro(obj);
 
         }
 
         public static DataTable Mostrar()
         {
-            return new DLogradouro().Mostrar_Logradouro();
+            return new DTipoLogradouro().Mostrar_TipoLogradouro();
 
 
         }
