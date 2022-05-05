@@ -45,6 +45,21 @@
 
 **Para executar o usuario precisa, instalar em seu desktop o visual studio e o Sql server, as instruções de como criar as tabelas e procedimentos estas pastas do repositorio**
 
+## Diagrama de Caso de Uso
+<h4 align="center">
+  <img alt="ProjetoEndereço" title="#Caso de Uso" src="https://github.com/ViniciusKanh/Endereco_CSharp_SQLSERVER/blob/main/Imagens-Icones/Diagrama%20de%20Caso%20de%20uso.png " />
+</h4>
+
+## Diagrama de Classe
+<h4 align="center">
+  <img alt="ProjetoEndereço" title="#Classe" src="https://github.com/ViniciusKanh/Endereco_CSharp_SQLSERVER/blob/main/Imagens-Icones/Diagrama%20de%20Classe.png" />
+</h4>
+
+## Diagrama de Implantação
+<h4 align="center">
+  <img alt="ProjetoEndereço" title="#Implantação" src="https://github.com/ViniciusKanh/Endereco_CSharp_SQLSERVER/blob/main/Imagens-Icones/Diagrama%20de%20Implanta%C3%A7%C3%A3o.png" />
+</h4>
+
 
 ### Autor
 ---
